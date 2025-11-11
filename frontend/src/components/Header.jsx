@@ -34,7 +34,7 @@ export default function Header() {
               <span className="text-white font-bold text-lg">T</span>
             </div>
             <span className="text-lg font-semibold text-gray-900 hidden sm:block">
-              Technologia
+              TechShop
             </span>
           </Link>
 
