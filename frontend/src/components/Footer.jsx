@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-white font-bold text-lg">T</span>
             </div>
             <span className="text-lg font-semibold text-gray-900 hidden sm:block">
-              Technologia
+              TechShop
             </span>
             </div>
             <p className="text-sm text-dark-500 dark:text-dark-400">
