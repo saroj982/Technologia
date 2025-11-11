@@ -104,7 +104,7 @@ export default function CartDrawer() {
                       {item.productId?.name}
                     </h3>
                     <p className="text-sm font-semibold text-orange-500 mb-2">
-                      ${item.productId?.price?.toFixed(2)}
+                      NPR {item.productId?.price?.toFixed(2)}
                     </p>
                     
                     {/* Quantity Controls */}
@@ -128,7 +128,7 @@ export default function CartDrawer() {
                   {/* Item Total */}
                   <div className="text-right">
                     <p className="text-sm font-semibold text-gray-900">
-                      ${((item.productId?.price || 0) * item.quantity).toFixed(2)}
+                      NPR {((item.productId?.price || 0) * item.quantity).toFixed(2)}
                     </p>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export default function CartDrawer() {
             {/* Subtotal */}
             <div className="flex items-center justify-between text-base">
               <span className="text-gray-700">Subtotal</span>
-              <span className="font-semibold text-gray-900">${total.toFixed(2)}</span>
+              <span className="font-semibold text-gray-900">NPR {total.toFixed(2)}</span>
             </div>
 
             {/* Checkout Button */}
