@@ -103,7 +103,7 @@ const CheckoutPage = () => {
                 </div>
                 <div className="text-right">
                   <p className="font-semibold text-gray-900">
-                    ${((item.productId?.price || 0) * item.quantity).toFixed(2)}
+                    NPR{((item.productId?.price || 0) * item.quantity).toFixed(2)}
                   </p>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const CheckoutPage = () => {
             <div className="flex justify-between items-center mb-4">
               <span className="text-lg font-medium text-gray-700">Total</span>
               <span className="text-2xl font-bold text-orange-500">
-                ${total.toFixed(2)}
+                NPR{total.toFixed(2)}
               </span>
             </div>
 
