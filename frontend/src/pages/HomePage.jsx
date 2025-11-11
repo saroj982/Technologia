@@ -48,7 +48,7 @@ export default function HomePage() {
                 <Truck className="w-6 h-6 text-orange-500" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Free Shipping</h3>
-              <p className="text-sm text-gray-600">On orders over $599</p>
+              <p className="text-sm text-gray-600">On orders over NPR 599</p>
             </div>
 
             {/* Feature 2 */}
