@@ -56,7 +56,7 @@ export default function ProductCard({ product }) {
         {/* Price and Stock */}
         <div className="flex items-center justify-between">
           <span className="text-lg font-semibold text-orange-500">
-            ${product.price?.toFixed(2)}
+            NPR{product.price?.toFixed(2)}
           </span>
           {product.stock !== undefined && (
             <span className="text-xs text-gray-500">
