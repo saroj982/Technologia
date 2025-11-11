@@ -128,7 +128,7 @@ export default function ProductDetailPage() {
               <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
               <div className="flex items-baseline gap-4">
                 <p className="text-5xl font-bold gradient-text">
-                  ${product.price.toFixed(2)}
+                  NPR{product.price.toFixed(2)}
                 </p>
                 {product.stock < 10 && product.stock > 0 && (
                   <span className="text-orange-600 dark:text-orange-400 font-medium">
